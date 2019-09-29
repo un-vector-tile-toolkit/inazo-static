@@ -1,0 +1,336 @@
+{
+  "center": [
+    15,
+    44
+  ],
+  "glyphs": "http://un-vector-tile-toolkit.github.io/inazo-static/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "paint": {
+        "background-color": [
+          "rgb",
+          243,
+          245,
+          250
+        ]
+      },
+      "type": "background"
+    },
+    {
+      "filter": [
+        "match",
+        [
+          "get",
+          "use"
+        ],
+        30,
+        true,
+        31,
+        true,
+        111,
+        true,
+        false
+      ],
+      "id": "fa000-2",
+      "paint": {
+        "line-color": [
+          "rgb",
+          224,
+          224,
+          224
+        ],
+        "line-dasharray": [
+          1,
+          1
+        ]
+      },
+      "source": "v",
+      "source-layer": "fa000",
+      "type": "line"
+    },
+    {
+      "filter": [
+        "match",
+        [
+          "get",
+          "use"
+        ],
+        26,
+        true,
+        false
+      ],
+      "id": "fa000-1",
+      "paint": {
+        "line-color": [
+          "rgb",
+          224,
+          224,
+          224
+        ],
+        "line-dasharray": [
+          5,
+          1
+        ]
+      },
+      "source": "v",
+      "source-layer": "fa000",
+      "type": "line"
+    },
+    {
+      "filter": [
+        "match",
+        [
+          "get",
+          "use"
+        ],
+        23,
+        true,
+        false
+      ],
+      "id": "fa000-0",
+      "paint": {
+        "line-color": [
+          "rgb",
+          224,
+          224,
+          224
+        ],
+        "line-dasharray": [
+          8,
+          2,
+          2,
+          2
+        ]
+      },
+      "source": "v",
+      "source-layer": "fa000",
+      "type": "line"
+    },
+    {
+      "id": "xx500",
+      "paint": {
+        "line-color": [
+          "rgb",
+          0,
+          255,
+          255
+        ]
+      },
+      "source": "v",
+      "source-layer": "xx500",
+      "type": "line"
+    },
+    {
+      "id": "ba010",
+      "paint": {
+        "line-color": [
+          "rgb",
+          79,
+          195,
+          247
+        ]
+      },
+      "source": "v",
+      "source-layer": "ba010",
+      "type": "line"
+    },
+    {
+      "id": "an010-hatching",
+      "paint": {
+        "line-color": [
+          "rgb",
+          189,
+          189,
+          189
+        ],
+        "line-dasharray": [
+          0.1,
+          8
+        ],
+        "line-width": [
+          "interpolate",
+          [
+            "exponential",
+            2
+          ],
+          [
+            "zoom"
+          ],
+          7,
+          0,
+          15,
+          16
+        ]
+      },
+      "source": "v",
+      "source-layer": "an010",
+      "type": "line"
+    },
+    {
+      "id": "an010",
+      "paint": {
+        "line-color": [
+          "rgb",
+          189,
+          189,
+          189
+        ]
+      },
+      "source": "v",
+      "source-layer": "an010",
+      "type": "line"
+    },
+    {
+      "id": "ap030-case",
+      "paint": {
+        "line-color": [
+          "rgb",
+          224,
+          224,
+          224
+        ],
+        "line-width": [
+          "interpolate",
+          [
+            "exponential",
+            2
+          ],
+          0,
+          7,
+          [
+            "match",
+            [
+              "get",
+              "rtt"
+            ],
+            16,
+            3,
+            14,
+            2,
+            15,
+            1,
+            1
+          ],
+          16,
+          40
+        ]
+      },
+      "source": "v",
+      "source-layer": "ap030",
+      "type": "line"
+    },
+    {
+      "id": "ap030",
+      "paint": {
+        "line-color": [
+          "match",
+          [
+            "get",
+            "rtt"
+          ],
+          16,
+          [
+            "rgb",
+            174,
+            213,
+            129
+          ],
+          14,
+          [
+            "rgb",
+            255,
+            183,
+            77
+          ],
+          15,
+          [
+            "rgb",
+            255,
+            241,
+            118
+          ],
+          [
+            "rgb",
+            224,
+            224,
+            224
+          ]
+        ],
+        "line-width": [
+          "interpolate",
+          [
+            "exponential",
+            2
+          ],
+          0,
+          7,
+          [
+            "match",
+            [
+              "get",
+              "rtt"
+            ],
+            16,
+            3,
+            14,
+            2,
+            15,
+            1,
+            1
+          ],
+          16,
+          42
+        ]
+      },
+      "source": "v",
+      "source-layer": "ap030",
+      "type": "line"
+    },
+    {
+      "id": "zd040",
+      "layout": {
+        "text-field": [
+          "get",
+          "namn1"
+        ],
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-size": 14
+      },
+      "paint": {
+        "text-color": [
+          "rgb",
+          0,
+          0,
+          0
+        ],
+        "text-halo-color": [
+          "rgb",
+          238,
+          238,
+          238
+        ],
+        "text-halo-width": 1
+      },
+      "source": "v",
+      "source-layer": "zd040",
+      "type": "symbol"
+    }
+  ],
+  "port": 3000,
+  "sources": {
+    "v": {
+      "attribution": "This product includes Intellectual Property from European National Mapping and Cadastral Authorities and is licensed on behalf of these by EuroGeographics. Original product is freely available at eurogeographics.org. Terms of the licence available at https://eurogeographics.org/products-and-services/open-data/topographic-data/",
+      "maxzoom": 8,
+      "minzoom": 2,
+      "tiles": [
+        "http://un-vector-tile-tooklit.github.io/inazo-static/zxy/{z}/{x}/{y}.pbf"
+      ],
+      "type": "vector"
+    }
+  },
+  "version": 8,
+  "zoom": 7
+}
