@@ -3,7 +3,7 @@
     15,
     44
   ],
-  "glyphs": "http://un-vector-tile-toolkit.github.io/inazo-static/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "https://un-vector-tile-toolkit.github.io/inazo-static/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -326,7 +326,7 @@
       "maxzoom": 8,
       "minzoom": 2,
       "tiles": [
-        "http://un-vector-tile-tooklit.github.io/inazo-static/zxy/{z}/{x}/{y}.pbf"
+        "https://un-vector-tile-tooklit.github.io/inazo-static/zxy/{z}/{x}/{y}.pbf"
       ],
       "type": "vector"
     }
