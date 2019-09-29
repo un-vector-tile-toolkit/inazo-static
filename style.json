@@ -326,7 +326,7 @@
       "maxzoom": 8,
       "minzoom": 2,
       "tiles": [
-        "https://un-vector-tile-tooklit.github.io/inazo-static/zxy/{z}/{x}/{y}.pbf"
+        "https://un-vector-tile-toolkit.github.io/inazo-static/zxy/{z}/{x}/{y}.pbf"
       ],
       "type": "vector"
     }
